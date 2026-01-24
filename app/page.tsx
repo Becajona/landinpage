@@ -12,7 +12,7 @@ export default function Home() {
             Pide en línea 🍔🌮
           </h1>
           <p className="mt-2 text-white/80">
-            Arma tu pedido, confirma y te llega al instante a Telegram.
+            Arma tu pedido, confirma y te llega al instante.
           </p>
 
           <div className="mt-6 flex flex-wrap gap-3">
