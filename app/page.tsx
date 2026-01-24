@@ -9,11 +9,12 @@ export default function Home() {
       <header className="mx-auto max-w-5xl px-4 py-10">
         <div className="rounded-3xl bg-black p-8 text-white">
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Pide en línea 🍔🌮
+            Pide en línea 🔥🇰🇷
           </h1>
           <p className="mt-2 text-white/80">
             Arma tu pedido, confirma y te llega al instante.
           </p>
+
 
           <div className="mt-6 flex flex-wrap gap-3">
             <a
