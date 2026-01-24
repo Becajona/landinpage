@@ -54,7 +54,7 @@ export default function AdminLoginPage() {
       <div className="w-full max-w-md rounded-3xl border bg-white p-6">
         <h1 className="text-2xl font-bold">Admin Login</h1>
         <p className="mt-1 text-sm text-zinc-600">
-          Acceso solo para administradores.
+          Acceso solo para administradoress.
         </p>
 
         <form onSubmit={onSubmit} className="mt-6 space-y-4">
