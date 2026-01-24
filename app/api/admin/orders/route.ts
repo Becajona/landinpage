@@ -1,7 +1,9 @@
 // app/api/admin/orders/route.ts
 import { NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/firebase/requireAdmin";
-import { adminDb } from "@/lib/firebase/admin"; // <-- ajusta al nombre real que exportes
+import { adminDb } from "@/lib/firebase/admin";
+
+export const runtime = "nodejs";
 
 export async function GET() {
   try {
@@ -14,7 +16,6 @@ export async function GET() {
       .get();
 
     const orders = snap.docs.map((d) => ({ id: d.id, ...d.data() }));
-
     return NextResponse.json({ ok: true, orders });
   } catch (e: any) {
     return NextResponse.json(
